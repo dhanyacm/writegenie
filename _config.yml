@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
 permalink: /blog/:year/:month/:day/:title
 paginate: 5
 paginate_path: "/blog/page:num/"
