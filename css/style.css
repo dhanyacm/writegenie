@@ -472,6 +472,15 @@ header {
 /*-- slider-ends --*/
 
 /*-- navigation-starts --*/
+
+ .affix {		
+      top: 0;		
+      width: 100%;		
+  }		
+  .affix + .wthree-main-content {		
+      padding-top: 100px;		
+  }		
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
