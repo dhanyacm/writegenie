@@ -472,17 +472,6 @@ header {
 /*-- slider-ends --*/
 
 /*-- navigation-starts --*/
-
-  .affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .wthree-main-content {
-      padding-top: 100px;
-  }
-
-
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -2641,29 +2630,29 @@ img.mfp-img {
 .w3ls-about-top-right-grid h4{
 	text-transform: capitalize;
     font-size: 20px;
-    color: #139596;
+    color: #000;
     margin: 5px 0 10px;
     line-height: 25px;
 }
 .w3ls-about-top-right-grid p{
-	color: #8a8a8a;
+	color: #fff;
     font-size: 13px;
     margin: 0;
     line-height: 28px;
 }
 .w3ls-about-top-left-grid p{
-	color: #8a8a8a;
+	color: #fff;
     font-size: 13px;
     margin: 0;
     line-height: 28px;
 }
 .w3-about-gd-left{
 	float:left;
-	width:38%;
+	width:18%;
 }
 .w3-about-gd-right{
 	float:right;
-	width:62%;
+	width:82%;
 }
 .w3ls-about-gd:nth-child(3),.w3ls-about-gd:nth-child(5){
 	margin:1em 0;
@@ -3011,13 +3000,12 @@ p.vel {
 	list-style-type:none;
 	margin-bottom:1em;
 	padding-left:1.5em;
-	color: #E6B61C;
-    font-size:14px;        
+	font-size:14px;
 }
-.w3ls-services-bottom-grid ul li span{
+.w3ls-services-bottom-grid ul li a{
 	color: #E6B61C;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
     letter-spacing: 0.5px;
 }
@@ -3447,10 +3435,10 @@ p.vel {
 		font-size: 20px;
 	}
 	.w3-about-gd-left {
-		width: 38%;
+		width: 12%;
 	}
 	.w3-about-gd-right {
-		width: 62%;
+		width: 88%;
 	}
 	.w3ls-about-top-right-grid h4 {
 		line-height: 20px;
@@ -3789,12 +3777,6 @@ p.vel {
 		font-size: 19px;
 		padding: 18px 0 5px;
 	}
-	/* dcm added for horizontal row  */
-	.w3l-service-grid li {
-		display: inline;
-		list-style-type: none;
-		padding-right: 20px;"
-    }
 	h3.agileits-icons-title {
 		font-size: 22px;
 	}	
@@ -4064,10 +4046,10 @@ p.vel {
 		padding: 20px 10px;
 	}
 	.w3-about-gd-left {
-		width: 40%;
+		width: 20%;
 	}	
 	.w3-about-gd-right {
-		width: 60%;
+		width: 80%;
 	}
 	.w3layouts-services-bottom {
 		padding: 40px 0 30px;
